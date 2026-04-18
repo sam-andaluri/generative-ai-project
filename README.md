@@ -117,7 +117,7 @@ pandoc Generative_AI_Analysis_Report.md -o Generative_AI_Analysis_Report.pdf
 After running the notebook, generate the exact package versions:
 
 ```bash
-pip freeze > requirements.txt
+uv pip freeze > requirements.txt
 ```
 
 ## References
