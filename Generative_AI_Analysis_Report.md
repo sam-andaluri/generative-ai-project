@@ -11,6 +11,8 @@ This project implements an **LLM-based operations advisor** that generates opera
 2. **Scenario augmentation** - Transformer model extrapolates stress-test conditions
 3. **LLM advisor** - Generates operational guidance 
 
+GitHub repository: https://github.com/sam-andaluri/generative-ai-project
+
 ## 2. Dataset: Azure Multimodal Inference Dataset 2025
 
 ### Source and Citation

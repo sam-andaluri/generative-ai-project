@@ -4,7 +4,7 @@
 
 This project implements an **LLM-based operations advisor** that generates natural language operational guidance from inference cluster telemetry. The system transforms raw metrics into actionable recommendations for infrastructure operators.
 
-GitHub repository: `https://github.com/sam-andaluri/generative-ai-project`
+GitHub repository: https://github.com/sam-andaluri/generative-ai-project
 
 ## 1. Cloning repo
 
