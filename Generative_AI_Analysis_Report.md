@@ -8,9 +8,9 @@
 This project implements an **LLM-based operations advisor** that generates operational guidance from inference cluster telemetry. Then uses the augmentation model to generate scenarios and transforms structured metrics into diagnostic narratives with recommendations.
 
 **Pipeline:**
-1. **Real dataset** — Azure Multimodal Inference Dataset 2025 (1M production requests)
-2. **Scenario augmentation** — Transformer model extrapolates stress-test conditions
-3. **LLM advisor** — Generates operational guidance 
+1. **Real dataset** - Azure Multimodal Inference Dataset 2025 (1M production requests)
+2. **Scenario augmentation** - Transformer model extrapolates stress-test conditions
+3. **LLM advisor** - Generates operational guidance 
 
 ## 2. Dataset: Azure Multimodal Inference Dataset 2025
 
@@ -37,8 +37,8 @@ This project implements an **LLM-based operations advisor** that generates opera
 | GeneratedTokens | 187 | 98 | Right-skewed, log transform applied |
 
 **Correlations:**
-- NumImages ↔ ContextTokens: **0.76** (strong positive)
-- ContextTokens ↔ GeneratedTokens: 0.01 (negligible)
+- NumImages <-> ContextTokens: **0.76** (strong positive)
+- ContextTokens <-> GeneratedTokens: 0.01 (negligible)
 
 **Temporal patterns:** Clear diurnal cycles, burst structure at short timescales.
 
@@ -119,7 +119,7 @@ LLM-generated guidance is fluent and confident even when potentially incorrect. 
 **Current limitations:**
 - Augmentation model fails on discrete NumImages distribution (342% error)
 - Overfitting persists (train/val gap: 0.48) despite regularization
-- Advisor evaluation is qualitative — no validated ground truth
+- Advisor evaluation is qualitative - no validated ground truth
 - Single-cluster, 7-day window limits generalization
 
 **Future improvements:**
@@ -142,4 +142,4 @@ Zhang, J., et al. (2025). ModServe: Modality- and stage-aware resource disaggreg
 
 Vaswani, A., et al. (2017). Attention is all you need. *NeurIPS*.
 
-Floridi, L., et al. (2018). AI4People—An ethical framework for a good AI society. *Minds and Machines*, 28(4), 689-707.
+Floridi, L., et al. (2018). AI4People-An ethical framework for a good AI society. *Minds and Machines*, 28(4), 689-707.
