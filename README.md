@@ -1,6 +1,6 @@
 # Generative AI Applications
 
-## LLM-Based Operations Advisor
+## Generative AI for Inference Cluster Operations using an LLM-Based Operations Advisor
 
 This project implements an **LLM-based operations advisor** that generates natural language operational guidance from inference cluster telemetry. The system transforms raw metrics into actionable recommendations for infrastructure operators.
 
@@ -62,7 +62,7 @@ pandoc --version
 From the project folder:
 
 ```bash
-cd deep-learning-project
+cd generative-ai-project
 uv venv .venv
 source .venv/bin/activate
 ```
@@ -77,16 +77,16 @@ uv pip install -r requirements.txt
 
 ## 6. Run the Notebook
 
-Open and run `deep_learning.ipynb` in Jupyter:
+Open and run `generative_model.ipynb` in Jupyter:
 
 ```bash
-jupyter notebook deep_learning.ipynb
+jupyter notebook generative_model.ipynb
 ```
 
 Or using JupyterLab:
 
 ```bash
-jupyter lab deep_learning.ipynb
+jupyter lab generative_model.ipynb
 ```
 
 Run all cells from top to bottom (Cell > Run All).
@@ -96,7 +96,7 @@ Run all cells from top to bottom (Cell > Run All).
 If you update the report markdown, regenerate the PDF with:
 
 ```bash
-pandoc Deep_Learning_Systems_Analysis_Report.md -o Deep_Learning_Systems_Analysis_Report.pdf
+pandoc Generative_AI_Analysis_Report.md -o Generative_AI_Analysis_Report.pdf
 ```
 
 ## 8. Generate Final requirements.txt
@@ -115,10 +115,11 @@ Astral. (n.d.). *Pip interface*. uv documentation. Retrieved April 14, 2026, fro
 
 Astral. (n.d.). *Using environments*. uv documentation. Retrieved April 14, 2026, from https://docs.astral.sh/uv/pip/environments/
 
-Microsoft Azure. (n.d.). *Azure LLM Inference Trace 2024* [Data set]. Retrieved April 14, 2026, from https://github.com/Azure/AzurePublicDataset
+Zhang, J., Agrawal, A., Gandomi, A., et al. (2025). ModServe: Modality- and stage-aware resource disaggregation for scalable multimodal model serving. *ACM Symposium on Cloud Computing (SoCC '25)*.
 
-Stojkovic, U., et al. (2025). DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency. *IEEE International Symposium on High-Performance Computer Architecture (HPCA '25)*.
+Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). Attention is all you need. *Advances in Neural Information Processing Systems (NeurIPS)*.
 
-Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. *Neural Computation*, 9(8), 1735-1780.
+Arjovsky, M., Chintala, S., & Bottou, L. (2017). Wasserstein generative adversarial networks. *International Conference on Machine Learning (ICML)*.
 
-Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems*, 30.
+Floridi, L., Cowls, J., Beltrametti, M., et al. (2018). AI4People—An ethical framework for a good AI society. *Minds and Machines*, 28(4), 689-707.
+
