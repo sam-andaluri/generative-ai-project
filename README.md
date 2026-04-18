@@ -15,10 +15,10 @@ Install `git-lfs` cli using https://git-lfs.com or on MacOS `brew install git-lf
 Run the following commands to get the datafiles. 
 ```bash
 git lfs install
-git clone https://github.com/sam-andaluri/deep-learning-project.git
-cd deep-learning-project
+git clone https://github.com/sam-andaluri/generative-ai-project.git
+cd generative-ai-project
 git lfs pull
-gunzip -k data/azure_llm_2024/*.gz
+gunzip -k data/azure_multimodal_2025/*.gz
 ```
 
 ## 2. Install `uv`
