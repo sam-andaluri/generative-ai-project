@@ -1,7 +1,6 @@
 # Generative AI Analysis Report
-## LLM-Based Operations Advisor for Multimodal Inference Clusters
 
----
+## Generative AI for Inference Cluster Operations using an LLM-Based Operations Advisor
 
 ## 1. Overview
 
