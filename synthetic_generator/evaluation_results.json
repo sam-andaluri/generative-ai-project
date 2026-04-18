@@ -1,0 +1,38 @@
+{
+  "model_type": "autoregressive_transformer",
+  "statistical_fidelity": {
+    "inter_arrival_time": {
+      "ks_statistic": 0.1045,
+      "ks_pvalue": 6.175533217766098e-48,
+      "wasserstein": 0.10850144718503765,
+      "wasserstein_normalized": 0.11889276337407716,
+      "mean_diff_pct": 11.802449062826993,
+      "std_diff_pct": 30.076706044303016
+    },
+    "NumImages": {
+      "ks_statistic": 0.462,
+      "ks_pvalue": 0.0,
+      "wasserstein": 47.10599999999998,
+      "wasserstein_normalized": 0.6773151734431483,
+      "mean_diff_pct": 341.514701966602,
+      "std_diff_pct": 27.167179765840068
+    },
+    "ContextTokens": {
+      "ks_statistic": 0.1097,
+      "ks_pvalue": 8.60871893796838e-53,
+      "wasserstein": 1037.9040999999966,
+      "wasserstein_normalized": 0.17789860860698906,
+      "mean_diff_pct": 34.466154499284855,
+      "std_diff_pct": 103.24601326837251
+    },
+    "GeneratedTokens": {
+      "ks_statistic": 0.0784,
+      "ks_pvalue": 3.808765148627586e-27,
+      "wasserstein": 45.91719999999985,
+      "wasserstein_normalized": 0.13421219863881084,
+      "mean_diff_pct": 14.265661337129368,
+      "std_diff_pct": 64.03431103774622
+    }
+  },
+  "correlation_mae": 0.1463826045095646
+}
