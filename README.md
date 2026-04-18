@@ -75,7 +75,20 @@ Install the pinned dependencies from `requirements.txt`:
 uv pip install -r requirements.txt
 ```
 
-## 6. Run the Notebook
+## 6. Setup dot env for LLM inference
+
+Obtain an OpenAI api key and create `.env` file with following contents.
+
+```
+LLM_API_URL=https://api.openai.com/v1/chat/completions
+LLM_API_KEY="<openai-api-key>"
+LLM_MODEL=gpt-4o-mini
+LLM_API_FORMAT=auto
+LLM_TIMEOUT_SECONDS=60
+LLM_MAX_TOKENS=900
+```
+
+## 7. Run the Notebook
 
 Open and run `generative_model.ipynb` in Jupyter:
 
@@ -91,7 +104,7 @@ jupyter lab generative_model.ipynb
 
 Run all cells from top to bottom (Cell > Run All).
 
-## 7. Generate the Report PDF
+## 8. Generate the Report PDF
 
 If you update the report markdown, regenerate the PDF with:
 
@@ -99,7 +112,7 @@ If you update the report markdown, regenerate the PDF with:
 pandoc Generative_AI_Analysis_Report.md -o Generative_AI_Analysis_Report.pdf
 ```
 
-## 8. Generate Final requirements.txt
+## 9. Generate Final requirements.txt
 
 After running the notebook, generate the exact package versions:
 

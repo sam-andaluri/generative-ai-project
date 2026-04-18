@@ -1,0 +1,28 @@
+{
+  "model_type": "autoregressive_transformer",
+  "feature_dim": 4,
+  "sequence_length": 10,
+  "d_model": 64,
+  "nhead": 4,
+  "num_layers": 2,
+  "dim_feedforward": 128,
+  "dropout": 0.3,
+  "training_features": [
+    "log_iat",
+    "NumImages",
+    "log_context",
+    "log_generated"
+  ],
+  "feature_means": {
+    "log_iat": 0.3862172950731677,
+    "NumImages": 14.33217,
+    "log_context": 7.099605713844061,
+    "log_generated": 4.397410773144956
+  },
+  "feature_stds": {
+    "log_iat": 0.3694805792717081,
+    "NumImages": 81.26399449281274,
+    "log_context": 1.2160457250766705,
+    "log_generated": 1.4415071709148772
+  }
+}
