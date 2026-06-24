@@ -50,7 +50,7 @@ jupyter-console==6.6.3
 jupyter-core==5.8.1
 jupyter-events==0.10.0
 jupyter-lsp==2.3.1
-jupyter-server==2.14.2
+jupyter-server==2.20.0
 jupyter-server-terminals==0.5.4
 jupyterlab==4.3.8
 jupyterlab-pygments==0.3.0
